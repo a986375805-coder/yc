@@ -124,8 +124,8 @@ a:hover { opacity: 0.8; }
 
 /* ---------- Summary cards ---------- */
 .summary-cols {
-  display: grid; grid-template-columns: repeat(3, 1fr);
-  gap: 24px; margin-bottom: 40px;
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 20px; margin-bottom: 40px;
 }
 .sum-card {
   background: var(--paper-raise);
@@ -262,6 +262,81 @@ a:hover { opacity: 0.8; }
 .footer { border-top: 1px solid var(--line-strong); padding: 26px 0; }
 .footer-in { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-family: var(--mono); font-size: 12.5px; color: var(--muted); }
 
+/* ============================================================
+   手风琴（作品集 / 产品设计）
+   ============================================================ */
+.accordion { border-top: 1px solid var(--line-strong); }
+
+.acc { border-bottom: 1px solid var(--line-strong); }
+.acc > summary {
+  list-style: none; cursor: pointer;
+  padding: 22px 4px;
+  display: block;
+  transition: background .15s ease;
+}
+.acc > summary::-webkit-details-marker { display: none; }
+.acc > summary:hover { background: color-mix(in srgb, var(--paper-raise) 60%, transparent); }
+.acc[open] > summary { border-bottom: 1px solid var(--line); }
+
+.acc-head {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 20px;
+}
+.acc-titles h3 { margin: 0; font-size: 21px; font-weight: 600; line-height: 1.35; }
+.acc-titles .work-tag { margin-bottom: 6px; }
+.acc-toggle {
+  flex: none;
+  font-family: var(--mono); font-size: 12px;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  padding: 5px 12px;
+  letter-spacing: 0.04em;
+  transition: all .15s ease;
+}
+.acc[open] .acc-toggle {
+  background: var(--accent); border-color: var(--accent);
+  color: #f2f7f5;
+}
+
+.acc-body { padding: 30px 0 26px; }
+.acc-body .work { padding: 0 0 10px; border-top: 0; }
+.acc-body .work-info { padding-right: 8px; }
+
+/* ---------- 产品设计案例 ---------- */
+.pd .pd-lead {
+  font-size: 16px; color: var(--ink);
+  max-width: 74ch; margin: 0 0 20px;
+  padding: 16px 20px;
+  background: var(--accent-soft);
+  border-left: 3px solid var(--accent);
+}
+.pd .pd-block { margin: 0 0 18px; }
+.pd .pd-block h4, .pd .pd-card h4 {
+  font-size: 14.5px; font-weight: 600; color: var(--accent-ink);
+  margin: 0 0 6px;
+}
+.pd .pd-block p { margin: 0; color: var(--ink-soft); font-size: 14.5px; max-width: 76ch; }
+.pd-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 1px; background: var(--line);
+  border: 1px solid var(--line); margin: 0 0 18px;
+}
+.pd-card { background: var(--paper-raise); padding: 18px 20px; }
+.pd-card p { margin: 0; color: var(--ink-soft); font-size: 14px; }
+.pd .plain li { color: var(--ink-soft); font-size: 14.5px; }
+
+/* ---------- 源码链接 ---------- */
+.repo-link { margin: 14px 0 0; }
+.repo-link a {
+  font-family: var(--mono); font-size: 13.5px;
+  color: var(--accent-ink);
+  border: 1px solid var(--accent);
+  padding: 7px 14px;
+  display: inline-block;
+  transition: background .15s ease, color .15s ease;
+}
+.repo-link a:hover { background: var(--accent); color: #f2f7f5; opacity: 1; }
+
 /* ---------- Reveal ---------- */
 .reveal { opacity: 0; transform: translateY(16px); transition: opacity .6s ease, transform .6s ease; }
 .reveal.in { opacity: 1; transform: none; }
@@ -276,8 +351,9 @@ a:hover { opacity: 0.8; }
    ============================================================ */
 @media (max-width: 960px) {
   .mast-row, .two-col, .contact-grid { grid-template-columns: 1fr; gap: 32px; }
-  .summary-cols { grid-template-columns: 1fr; }
+  .summary-cols { grid-template-columns: 1fr 1fr; }
   .work, .work-rev { grid-template-columns: 1fr; gap: 28px; }
+  .pd-grid { grid-template-columns: 1fr 1fr; }
   .metrics { grid-template-columns: repeat(2, 1fr); }
   .metric { border-left: 0; border-top: 1px solid var(--line); }
   .metric:nth-child(-n+2) { border-top: 0; }
@@ -296,9 +372,12 @@ a:hover { opacity: 0.8; }
   .work-metrics { grid-template-columns: 1fr 1fr; }
   .mast-cta .btn { width: 100%; text-align: center; }
   .footer-in { flex-direction: column; gap: 4px; }
+  .acc-head { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .pd-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 420px) {
   .metrics { grid-template-columns: 1fr 1fr; }
+  .summary-cols { grid-template-columns: 1fr; }
   .sec-title { font-size: 23px; }
 }
