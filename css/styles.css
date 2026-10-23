@@ -506,3 +506,5 @@ button { font: inherit; cursor: pointer; }
 @media(max-width:760px) { .case-detail-grid { grid-template-columns:1fr; gap:12px; }.case-detail { padding:16px; }.case-ai { padding:16px; }.case-ai h4 { font-size:17px; }.case-flow li { font-size:11px; padding:6px 9px; }.case-flow li:not(:last-child)::after { margin-left:5px; } }
 @media print { .case-detail { break-inside:avoid; }.case-detail-grid { gap:10px; }.case-ai { background:white; } }
 @media screen { .work-shots img[src*="feishu-work"] { height:auto; max-height:300px; object-fit:cover; object-position:top; } }
+
+.analytics-toggle{font:inherit;color:inherit;background:none;border:0;border-bottom:1px dotted currentColor;padding:4px 0;cursor:pointer}.analytics-toggle:focus-visible{outline:2px solid currentColor;outline-offset:4px}.analytics-toggle:disabled{cursor:default}.footer-in{flex-wrap:wrap;gap:12px}
