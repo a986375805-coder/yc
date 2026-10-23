@@ -1,54 +1,56 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>姚畅 · 简历与作品集</title>
-<meta name="description" content="姚畅 —— AI 产品运营 / 技术交付工程师。数据驱动运营 + AI 工具从 0 到 1 落地。求职：AI 产品运营、AI 技术交付工程师（FDE 方向）。">
+<meta name="description" content="姚畅的个人简历与作品集：GamePulse AI、CMS 发布助手、飞书 Agent Skill、产品设计与技术交付案例。意向福州、厦门、杭州 AI 应用交付、实施与产品运营岗位。">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
+<a class="skip" href="#top">跳到正文</a>
 <!-- ============ 顶栏 ============ -->
 <header class="topbar">
   <div class="wrap topbar-in">
     <a class="brand" href="#top">姚畅<span class="brand-dot">.</span></a>
-    <nav class="topnav" aria-label="页面导航">
+    <button class="menu" type="button" hidden aria-expanded="false" aria-controls="navigation">菜单</button>
+    <nav id="navigation" class="topnav" aria-label="页面导航">
       <a href="#summary">概览</a>
-      <a href="#experience">经历</a>
       <a href="#works">作品集</a>
       <a href="#products">产品设计</a>
+      <a href="#experience">经历</a>
       <a href="#delivery">交付</a>
       <a href="#contact">联系</a>
     </nav>
-    <a class="nav-resume" href="downloads/resume.pdf" download>简历下载</a>
+    <a class="nav-resume" href="mailto:yc077@foxmail.com?subject=岗位与项目交流">联系我 ↗</a>
   </div>
 </header>
 
-<main id="top">
+<main id="top" tabindex="-1">
 
   <!-- ============ 头部 ============ -->
   <section class="wrap masthead">
     <div class="mast-row">
       <div class="mast-left">
-        <p class="roleline">产品运营 · 数据与 AI 工具落地</p>
+        <p class="roleline">AI 应用实践 / 产品运营 / 技术交付</p>
         <div class="name-row">
           <div class="name-wrap">
             <h1 class="name">姚畅</h1>
-            <p class="name-sub">福州 · 应届 · 求职中</p>
+            <p class="name-sub">产品运营 · AI 工具开发 · 物联网背景</p>
           </div>
           <div class="avatar" role="img" aria-label="姚畅照片">
-            <img src="assets/profile.jpg" alt="姚畅">
+            <img src="assets/profile.jpg" alt="姚畅个人照片" width="1080" height="1440" fetchpriority="high">
           </div>
         </div>
         <p class="statement">
-          产品运营出身，在搜狐畅游·17173 兼任内部 AI 工具开发——把「游戏节点采集」「厂商稿发布」两个重复性手工流程，做成了团队每天在用的工具；也用数据把排行榜点击量提升了 40%。做过电商创业，也参与过技能大赛的 AI 方案交付，希望把这些经验用在更实在的业务问题上。
-        </p>
+          物联网应用技术背景，现从事游戏媒体产品运营。独立开发游戏节点采集与复检工具、CMS 发布扩展，封装飞书 Agent Skill；参与产品需求设计和院校项目交付，负责操作文档、演示培训与技术支持。
+        </p><div class="mast-cta"><a class="btn" href="#works">查看项目与截图 ↘</a><a class="btn ghost" href="#experience">阅读经历</a></div>
       </div>
       <aside class="mast-meta">
         <dl>
-          <div><dt>现居</dt><dd>福建 · 福州</dd></div>
-          <div><dt>电话</dt><dd><a href="tel:15859440867">158 5944 0867</a></dd></div>
+          <div><dt>现居</dt><dd>福建 · 福州</dd></div><div><dt>岗位</dt><dd>AI 应用交付 / 实施 / 产品运营</dd></div>
+          <div><dt>意向</dt><dd>福州、厦门、杭州</dd></div>
           <div><dt>邮箱</dt><dd><a href="mailto:yc077@foxmail.com">yc077@foxmail.com</a></dd></div>
           <div><dt>GitHub</dt><dd><a href="https://github.com/a986375805-coder" rel="noopener">github.com/a986375805-coder</a></dd></div>
         </dl>
@@ -56,119 +58,15 @@
     </div>
   </section>
 
-  <!-- ============ 概览 ============ -->
   <section class="wrap section" id="summary">
-    <h2 class="sec-title">概览 · 我擅长什么</h2>
-    <div class="summary-cols">
-      <div class="sum-card">
-        <h3><span class="idx">01</span>数据驱动运营</h3>
-        <p>能从点击、PV、CTR 里看出真实问题，把改版动作落到数字上。排行榜改版：点击量 +40%、CTR +20%、热点游戏 PV +44.8%。</p>
-      </div>
-      <div class="sum-card">
-        <h3><span class="idx">02</span>AI 工具落地</h3>
-        <p>Python 爬虫 + LLM 语义提取 + 可视化看板，把一个想法从需求做到团队日常在用。AI 判断准确率 90%+，溯源可查。</p>
-      </div>
-      <div class="sum-card">
-        <h3><span class="idx">03</span>产品设计能力</h3>
-        <p>能从需求出发输出完整 PRD 与高保真原型。主导游戏详情页改版、后台配置功能设计，兼顾业务逻辑与前端实现。</p>
-      </div>
-      <div class="sum-card">
-        <h3><span class="idx">04</span>端到端交付</h3>
-        <p>需求对接 → 方案设计 → 技术落地 → 培训演示 → 交付验收。技能大赛交付跑通 20+ 所院校，现场零事故。</p>
-      </div>
-    </div>
-
-    <div class="metrics">
-      <div class="metric"><span class="m-num">+40%</span><span class="m-label">排行榜点击量<em>1 个月改版 · 2 个月见效</em></span></div>
-      <div class="metric"><span class="m-num">+98.9%</span><span class="m-label">发稿提效<em>单篇 15 分钟 → 10 秒</em></span></div>
-      <div class="metric"><span class="m-num">90%+</span><span class="m-label">AI 判断准确率<em>初筛 + 复检 + 溯源</em></span></div>
-      <div class="metric"><span class="m-num">20+</span><span class="m-label">院校交付<em>国赛 1 金 2 铜 · 省赛 3 金 8 银</em></span></div>
-    </div>
+    <h2 class="sec-title" id="project-index-title">项目导航</h2>
+    <p class="sec-sub">三个 AI 工具、三项产品设计，以及一项物联网实践。</p>
+    <div class="case-directory" aria-labelledby="project-index-title"><div class="case-index"><a href="#gamepulse"><span class="case-number">01 ↗</span><strong>GamePulse AI</strong><span>采集 → AI 提取与复检 → 日历与排期</span><small>独立开发 · 每日使用</small></a><a href="#cms"><span class="case-number">02 ↗</span><strong>CMS 发布助手</strong><span>文档解析 → CMS AI 识别 → 图片回填</span><small>浏览器扩展 · 人工核对发布</small></a><a href="#feishu"><span class="case-number">03 ↗</span><strong>飞书 Agent Skill</strong><span>统一接口、权限与错误处理，组织多角色协作</span><small>工具封装 · 场景验证</small></a><a href="#top-redesign"><span class="case-number">04 ↗</span><strong>游戏榜单改版</strong><span>从静态排名到游戏发现，补全排序与异常规则</span><small>信息架构 · 交互原型</small></a><a href="#detail-redesign"><span class="case-number">05 ↗</span><strong>游戏详情页改版</strong><span>重排首屏资源，串联内容浏览与详情决策</span><small>PRD · 高保真原型</small></a><a href="#timeline-config"><span class="case-number">06 ↗</span><strong>游戏历程后台配置</strong><span>约束节点样式与必填字段，兼容历史数据</span><small>前后台联动 · 需求设计</small></a><a class="case-index-wide" href="#iot-project"><span class="case-number">07 ↗</span><strong>智能窗户改造</strong><span>环境数据采集 → 窗户控制 → 小程序操作</span><small>物联网项目 · 项目负责人</small></a></div></div>
   </section>
 
-  <!-- ============ 工作经历 ============ -->
-  <section class="wrap section" id="experience">
-    <h2 class="sec-title">工作经历</h2>
-
-    <article class="job">
-      <header class="job-head">
-        <div>
-          <h3>搜狐畅游 · 17173</h3>
-          <p class="role">产品运营（兼任内部 AI 工具开发） · 游戏媒体</p>
-        </div>
-        <time>2026.04 – 至今</time>
-      </header>
-      <p class="job-about">负责游戏数据运营与产品需求设计，同时主导内部 AI 工具从需求到上线的全流程开发——两条线并行，对结果负责。</p>
-
-      <div class="achi">
-        <h4>游戏排行榜运营与数据分析</h4>
-        <ul>
-          <li>从点击数据识别「头部效应」：TOP10 游戏贡献约 70% 点击，中部游戏被选品逻辑压制，问题不在内容质量而在展示逻辑。</li>
-          <li>一个月完成三大榜单改版（本周热门 / 新游测试表 / 游戏新版本）：本周热门加入站外高热新游，第 2 周 PV/UV 增幅均超 30%；新游测试表补充站外新游与买量游戏，全站点击贡献占比超 45%；游戏新版本聚焦老 IP 迭代，点击率从 5.7% 升至稳定 8.1%。</li>
-          <li>改版 2 个月整体点击量 <strong>+40%</strong>、CTR <strong>+20%</strong>、热点游戏 PV <strong>+44.8%</strong>；流量增长带动新增 2 个广告位，高点击游戏反哺商务洽谈合作。</li>
-        </ul>
-      </div>
-
-      <div class="achi">
-        <h4>游戏详情页改版（需求设计 · 详见产品设计模块）</h4>
-        <ul>
-          <li>基于用户行为数据判断：PC 详情页瓶颈在首屏资源分配与决策路径，而非内容量。输出完整 PRD，推进到开发阶段。</li>
-          <li>主导新增模块设计：游戏信息分发插卡（右侧 320px 转化区）、资讯 Banner、游戏历程插卡、基本信息插卡；按「用户决策路径」组织页面动线。</li>
-        </ul>
-      </div>
-
-      <div class="achi">
-        <h4>内部 AI 工具一：游戏节点自动化采集</h4>
-        <ul>
-          <li>背景：编辑需登录多个平台手动采集游戏测试节点（公测 / 内测 / 新版本），单次约 3 小时且易漏；核心痛点是数据源分散 + 判断口径不统一。</li>
-          <li>技术：Python 爬虫（TapTap / 好游快爆 / 游民星空 / Steam）+ LLM 语义提取，替代 RPA——RPA 无法跨平台语义理解。采用「AI 初筛 + AI 复检 + 来源溯源」三重机制，准确率从单轮 75% 提到 <strong>90%+</strong>。</li>
-          <li>产出可视化看板（日历 / 四栏 / 排期表），编辑团队日常使用，录入效率 <strong>3 小时 → 0.5–1 小时</strong>。</li>
-        </ul>
-      </div>
-
-      <div class="achi">
-        <h4>内部 AI 工具二：CMS 厂商稿发布助手</h4>
-        <ul>
-          <li>背景：厂商稿发布需手动完成分类 / 标题 / 正文排版 / 图片上传等 8 步，单篇约 15 分钟。</li>
-          <li>技术：浏览器扩展一键发布（docx 解析 → 自动填充 → 图片上传 → 发布），Mammoth.js + 原生解压；单篇 <strong>15 分钟 → 10 秒</strong>。</li>
-          <li>AI 审稿：把人工审核规则（错别字 / 敏感词 / 标点 / 语病）产品化为「五维加权 + 红线熔断」评分模型，低于 70 分自动拦截，累计拦截低质稿 40+ 篇，日均处理约 30 篇。</li>
-        </ul>
-      </div>
-    </article>
-
-    <article class="job">
-      <header class="job-head">
-        <div>
-          <h3>福建票付通信息科技有限公司</h3>
-          <p class="role">产品专员（实习） · 智慧旅游</p>
-        </div>
-        <time>2025.04 – 2025.07</time>
-      </header>
-      <ul class="plain">
-        <li>参与「三亚先行」智慧旅游小程序核心交付，负责 200+ 票务分销商管理后台的需求调研与产品设计。</li>
-        <li>Axure 输出高保真原型，编写 PRD、操作手册与技术说明文档，助力缩短开发周期约 15%。</li>
-      </ul>
-    </article>
-
-    <article class="job">
-      <header class="job-head">
-        <div>
-          <h3>TikTok Shop 跨境电商</h3>
-          <p class="role">个人创业项目 · 东南亚大码女装</p>
-        </div>
-        <time>2024.11 – 2026</time>
-      </header>
-      <ul class="plain">
-        <li>切入「东南亚大码女装」细分市场，独立完成选品、定价与内容策略，实现稳定月销。</li>
-        <li>打造 2 款销量 400+ 件的店铺热销款；基于数据反馈迭代内容，转化率提升约 1.5%。</li>
-      </ul>
-    </article>
-  </section>
-
-  <!-- ============ 作品集（手风琴） ============ -->
   <section class="wrap section" id="works">
-    <h2 class="sec-title">项目作品集</h2>
-    <p class="sec-sub">独立完成或核心主导的项目。点击项目名展开查看详情、界面与源码（代码仓库已公开）。</p>
+    <h2 class="sec-title">AI 工具实践 <span class="section-count">03 个核心项目</span></h2>
+    <p class="sec-sub">个人独立工具与协作实践，涵盖信息采集、稿件处理和飞书接口封装。</p>
 
     <div class="accordion">
 
@@ -177,251 +75,273 @@
         <summary>
           <div class="acc-head">
             <div class="acc-titles">
-              <span class="work-tag">AI 数据产品 · 生产在用</span>
-              <h3>GamePulse AI · 游戏节点聚合中台</h3>
+              <span class="work-tag">独立开发 · 多源采集 / AI 提取与复检</span>
+              <h3 id="gamepulse">GamePulse AI · 游戏节点聚合工具</h3>
             </div>
-            <span class="acc-toggle" aria-hidden="true">展开/收起</span>
+            <span class="acc-toggle" aria-hidden="true">展开 / 收起</span>
           </div>
         </summary>
-        <div class="acc-body">
-          <div class="work">
-            <div class="work-info">
-              <p class="work-desc">
-                把编辑团队「翻多个平台找游戏测试节点」的手工活，变成一条自动流水线：定时爬取 → LLM 结构化 → 入库 → 可视化。不止做了个脚本，而是做成团队每天打开的生产工具。
-              </p>
-              <h4 class="work-sec">我做了什么</h4>
-              <ul class="plain">
-                <li>从编辑手动操作里识别需求：跨平台数据分散 + 人工判断口径不一，是效率与准确率的双重瓶颈。</li>
-                <li>技术选型：对比 RPA 后选择「爬虫 + LLM」，因为不同平台页面结构差异大，RPA 维护成本高且无法语义理解「公测 / 内测 / 新版本」这类判断。</li>
-                <li>质量兜底：「AI 初筛 + AI 复检」双模型交叉验证 + 每一条数据保留来源链接可一键回溯，把不可靠交给流程而非运气。</li>
-                <li>产品化：做日历视图、四栏看板、测试排期表、只读分享页，非技术同事也能直接用。</li>
-              </ul>
-              <h4 class="work-sec">关键成果</h4>
-              <div class="work-metrics">
-                <div><span>90%+</span><small>判断准确率（初筛+复检+溯源）</small></div>
-                <div><span>67–83%</span><small>编辑录入效率提升</small></div>
-                <div><span>生产在用</span><small>替代原手动流程并持续迭代</small></div>
-              </div>
-              <h4 class="work-sec">技术栈 & 源码</h4>
-              <ul class="chips"><li>Python</li><li>DeepSeek API</li><li>Flask</li><li>SQLite</li><li>ECharts</li><li>BeautifulSoup</li></ul>
-              <p class="repo-link"><a href="https://github.com/a986375805-coder/gamepulse-ai" rel="noopener">源码仓库 github.com/a986375805-coder/gamepulse-ai ↗</a></p>
-            </div>
-            <div class="work-shots">
-              <figure><img src="assets/shots/calendar-view.png" alt="GamePulse 日历视图：按日期纵览游戏排期"><figcaption>日历视图 · 一眼看清未来排期</figcaption></figure>
-              <figure><img src="assets/shots/test-schedule.png" alt="GamePulse 测试排期表"><figcaption>测试排期表 · 按月/周看白名单节点</figcaption></figure>
-            </div>
-          </div>
-        </div>
+        <div class="acc-body"><dl class="case-brief"><div><dt>我的职责</dt><dd>独立开发采集、AI 处理、数据整理与可视化</dd></div><div><dt>交付内容</dt><dd>日历、四栏看板、测试排期与只读分享页</dd></div><div><dt>实际使用</dt><dd>个人独立运行；本人每日使用，同事查看结果</dd></div></dl>
+<div class="work"><div class="work-info">
+  <p class="work-desc">游戏测试、首发和版本信息分散在不同平台，人工整理既要找来源，也要判断日期与事件类型。我将采集、语义提取和复检串成流程，集中查看近期节点。</p>
+  <h4 class="work-sec">技术选择：采集与语义判断分开</h4>
+  <p class="case-copy">对比 RPA 后，选择用采集程序取得页面内容，再由 LLM 区分公测、内测和新版本等事件，减少对固定页面操作路径的依赖。</p>
+  <h4 class="work-sec">关键实现：提取后再验证</h4>
+  <ul class="plain">
+    <li><strong>提取规则：</strong>先区分已上线与预约／测试中的游戏，再提取对应节点；返回游戏名、活动名、日期、测试类型、激活码与删档状态，减少把历史上线日期当成新事件。</li>
+    <li><strong>复检机制：</strong>结合搜索材料或联网模型，给出“确认／矛盾／无法验证”及依据和置信度。复用已有审核结果、合并相同节点；异常保留为“无法验证”，交由人工核对。</li>
+    <li><strong>数据可靠性：</strong>校验 JSON、处理缺失字段，调用失败时重试与退避；统一名称和日期，合并重复记录，对比已有数据标记新增或待审。</li>
+  </ul>
+  <h4 class="work-sec">使用者看到什么</h4>
+  <p class="case-copy">SQLite 保存游戏、节点与审核记录，日历和排期表提供不同查阅入口；节点保留来源，发现日期或类型疑问时可以回查原文。</p>
+<ul class="chips"><li>Python</li><li>DeepSeek API</li><li>SQLite</li><li>ECharts</li><li>BeautifulSoup</li></ul><p class="repo-link"><a href="https://github.com/a986375805-coder/gamepulse-ai" target="_blank" rel="noopener noreferrer">GitHub 源码 ↗</a></p></div><div class="work-shots"><figure><a class="shot-link" href="assets/shots/calendar-view-redacted.png" target="_blank" rel="noopener" aria-label="放大查看：GamePulse 日历视图：按日期纵览游戏排期"><img src="assets/shots/calendar-view-redacted.png" alt="GamePulse 日历视图：按日期纵览游戏排期" width="1912" height="954" loading="lazy" decoding="async"><span class="zoom-label" aria-hidden="true">查看完整大图 ↗</span></a><figcaption>日历视图 · 一眼看清未来排期</figcaption></figure><figure><a class="shot-link" href="assets/shots/test-schedule-redacted.png" target="_blank" rel="noopener" aria-label="放大查看：GamePulse 测试排期表"><img src="assets/shots/test-schedule-redacted.png" alt="GamePulse 测试排期表" width="1912" height="954" loading="lazy" decoding="async"><span class="zoom-label" aria-hidden="true">查看完整大图 ↗</span></a><figcaption>测试排期表 · 按月/周看白名单节点</figcaption></figure></div></div></div>
       </details>
 
       <!-- ====== 项目 2 ====== -->
-      <details class="acc">
+      <details class="acc" open>
         <summary>
           <div class="acc-head">
             <div class="acc-titles">
-              <span class="work-tag">流程自动化 · AI 审稿</span>
-              <h3>17173 CMS 厂商稿发布助手</h3>
+              <span class="work-tag">独立开发 · 浏览器扩展 / CMS AI 能力接入</span>
+              <h3 id="cms">CMS 厂商稿发布助手</h3>
             </div>
-            <span class="acc-toggle" aria-hidden="true">展开/收起</span>
+            <span class="acc-toggle" aria-hidden="true">展开 / 收起</span>
           </div>
         </summary>
-        <div class="acc-body">
-          <div class="work">
-            <div class="work-info">
-              <p class="work-desc">
-                编辑发布一篇厂商稿要在后台点 8 步、处理图片与格式，单篇 15 分钟。这个浏览器扩展把整条流程压成「选文件 → 一键发布」，并内置 AI 审稿把关。
-              </p>
-              <h4 class="work-sec">我做了什么</h4>
-              <ul class="plain">
-                <li>解析编辑日常的 docx 稿件，自动完成分类、标题、来源作者、正文排版与图片上传。</li>
-                <li>把编辑团队多年沉淀的审核经验（错别字、敏感词、标点、语病、合规）转成可量化的「五维加权 + 红线熔断」评分——红线项一票否决，其余按维度加权，低于 70 分自动拦截。</li>
-                <li>支持油猴脚本与 Chrome 扩展双形态，覆盖不同编辑的浏览器习惯；发布前 AI 复查，通过才放行。</li>
-              </ul>
-              <h4 class="work-sec">关键成果</h4>
-              <div class="work-metrics">
-                <div><span>15min→10s</span><small>单篇发布耗时</small></div>
-                <div><span>40+</span><small>累计拦截低质量稿件</small></div>
-                <div><span>30 篇/日</span><small>团队日均处理量</small></div>
-              </div>
-              <h4 class="work-sec">技术栈 & 源码</h4>
-              <ul class="chips"><li>JavaScript</li><li>Chrome Extension</li><li>Tampermonkey</li><li>Mammoth.js</li><li>AI 审稿模型</li></ul>
-              <p class="repo-link"><a href="https://github.com/a986375805-coder/17173-cms-publisher" rel="noopener">源码仓库 github.com/a986375805-coder/17173-cms-publisher ↗</a></p>
-            </div>
-          </div>
-        </div>
+        <div class="acc-body"><dl class="case-brief"><div><dt>我的职责</dt><dd>独立开发浏览器扩展，串联文档、AI 与图片处理</dd></div><div><dt>交付内容</dt><dd>DOCX 解析、字段填充、图片回填与失败补救</dd></div><div><dt>使用方式</dt><dd>调用现有 CMS 页面能力，人工确认发布</dd></div></dl>
+<div class="work"><div class="work-info">
+  <p class="work-desc">Word 稿件进入 CMS，需要在分类、标题、正文、图片和游戏标签之间反复切换。我将这些步骤组织成浏览器辅助流程，减少跨控件操作和遗漏。</p>
+  <div class="case-ai"><span class="case-kicker">核心亮点 / 异步 AI 能力接入</span><h4>把稿件识别放进完整发布流程</h4><p>正文写入后，扩展触发 CMS 既有的 AI 智能填充，等待游戏识别结果弹窗并执行确认。我的工作是组织调用顺序、等待条件、结果确认与异常提示；游戏与标签识别由 CMS 提供。</p></div>
+  <ol class="case-flow" aria-label="CMS 稿件处理流程"><li>读取 DOCX</li><li>填充分类、标题与正文</li><li>AI 识别游戏与标签</li><li>上传图片并回填</li><li>人工核对发布</li></ol>
+  <div class="case-detail-grid">
+    <section class="case-detail"><h4>01 / 文档解析与标题回退</h4><p>用 Mammoth.js 转换 DOCX、抽取内嵌图片并建立编号占位符。标题支持文件名或文档 XML；按加粗段落、最大字号、首个非空段落逐级回退。</p></section>
+    <section class="case-detail"><h4>02 / 适配异步控件</h4><p>等待分类树加载，定位分类、填写字段并写入富文本编辑器，触发输入与变更事件；正文首段与标题相同时自动去重。</p></section>
+    <section class="case-detail"><h4>03 / 图片上传与位置还原</h4><p>图片转为 Blob，按条件压缩静态大图、跳过 GIF 压缩；读取上传状态与图片地址，再替换编号占位符，还原图文位置并保留尺寸信息。</p></section>
+    <section class="case-detail"><h4>04 / 失败后可以接着处理</h4><p>用运行标记防止重复启动，逐步日志定位错误。AI 入口缺失、等待超时或图片失败时给出提示；保留重传图片和读取侧栏图片插入的人工补救入口。</p></section>
+  </div>
+<ul class="chips"><li>JavaScript</li><li>Chrome Extension</li><li>Mammoth.js</li><li>DOCX / XML</li><li>Blob / DataTransfer</li></ul><p class="repo-link"><a href="https://github.com/a986375805-coder/17173-cms-publisher" target="_blank" rel="noopener noreferrer">GitHub 源码 ↗</a></p></div></div></div>
       </details>
 
       <!-- ====== 项目 3 ====== -->
-      <details class="acc">
+      <details class="acc" open>
         <summary>
           <div class="acc-head">
             <div class="acc-titles">
-              <span class="work-tag">AI Agent · 企业工具链</span>
-              <h3>飞书机器人 opencode Skill</h3>
+              <span class="work-tag">工具封装 · 开放 API / 多角色协作</span>
+              <h3 id="feishu">飞书 Agent Skill</h3>
             </div>
-            <span class="acc-toggle" aria-hidden="true">展开/收起</span>
+            <span class="acc-toggle" aria-hidden="true">展开 / 收起</span>
           </div>
         </summary>
-        <div class="acc-body">
-          <div class="work">
-            <div class="work-info">
-              <p class="work-desc">
-                把飞书开放平台能力封装成一套可复用的 AI Agent Skill：收发消息、读写多维表格、管理日历 / 任务 / 云文档，让大模型能直接操作飞书，沉淀为团队自动化的底座。
-              </p>
-              <h4 class="work-sec">我做了什么</h4>
-              <ul class="plain">
-                <li>零第三方依赖、纯 Python 标准库直连飞书 API，降低使用门槛与供应链风险。</li>
-                <li>统一 CLI 与 Skill 接口，凭据走环境变量、不硬编码，适合作为团队工具沉淀。</li>
-                <li>设计了多机器人协作的 agents 模板（产品 / 数据 / 前端角色分工），验证 Agent 工作流在企业协作场景的可行性。</li>
-              </ul>
-              <h4 class="work-sec">工作场景示意</h4>
-              <ul class="plain">
-                <li>机器人接入飞书群，自动汇总每日早报 / 读取群消息 / 维护多维表格。</li>
-                <li>通过日历与任务能力，把「待办-跟进-完成」串成一条自动化闭环。</li>
-              </ul>
-              <h4 class="work-sec">技术栈 & 源码</h4>
-              <ul class="chips"><li>Python</li><li>飞书开放 API</li><li>Agent Skill</li><li>CLI</li></ul>
-              <p class="repo-link"><a href="https://github.com/a986375805-coder/feishu-openclaw-skill" rel="noopener">源码仓库 github.com/a986375805-coder/feishu-openclaw-skill ↗</a></p>
-            </div>
-            <div class="work-shots">
-              <figure><img src="assets/shots/feishu-work1.png" alt="飞书机器人工作截图一"><figcaption>飞书机器人 · 实际工作场景</figcaption></figure>
-              <figure><img src="assets/shots/feishu-work2.png" alt="飞书机器人工作截图二"><figcaption>飞书机器人 · 消息与表格联动</figcaption></figure>
-            </div>
-          </div>
-        </div>
+        <div class="acc-body"><dl class="case-brief"><div><dt>我的职责</dt><dd>封装 Python CLI、编写 Skill 说明与角色模板</dd></div><div><dt>交付内容</dt><dd>消息、表格、日历、任务和文档操作入口</dd></div><div><dt>实践场景</dt><dd>产品与前端角色围绕摘要展示规则协作</dd></div></dl>
+<div class="work"><div class="work-info">
+  <p class="work-desc">Agent 执行协作任务，需要把“读消息、查记录、更新任务”转成可调用的接口。我将飞书开放 API 组织为 CLI 与 Skill，统一身份处理、参数入口和返回结果。</p>
+  <h4 class="work-sec">关键实现：让接口能被连续调用</h4>
+  <ul class="plain">
+    <li><strong>请求与权限：</strong>使用 Python 标准库发起请求，从环境变量或独立配置读取凭据、获取访问令牌；集中处理 JSON、网络错误和飞书返回码。</li>
+    <li><strong>统一命令：</strong>按子命令分发消息、资源、表格、日历、任务和文档操作，配套 Skill 文档说明参数与权限要求。</li>
+    <li><strong>结构化输出：</strong>消息整理出类型、时间、发送者与正文；表格用字段 JSON 与筛选条件操作，便于后续任务继续处理。</li>
+  </ul>
+  <h4 class="work-sec">协作案例：从产品要求到前端建议</h4>
+  <p class="case-copy">为产品、数据、前端与日常助理编写角色模板，明确职责、项目上下文和协作约定。实际讨论中，产品角色澄清摘要展示与换行规则，前端角色给出样式和实现建议，再根据反馈细化。</p>
+<ul class="chips"><li>Python</li><li>飞书开放 API</li><li>CLI</li><li>Agent Skill</li><li>角色模板</li></ul><p class="repo-link"><a href="https://github.com/a986375805-coder/feishu-openclaw-skill" target="_blank" rel="noopener noreferrer">GitHub 源码 ↗</a></p></div><div class="work-shots"><figure><a class="shot-link" href="assets/shots/feishu-work1-redacted.png" target="_blank" rel="noopener" aria-label="放大查看：飞书机器人工作截图一"><img src="assets/shots/feishu-work1-redacted.png" alt="飞书机器人工作截图一" width="1446" height="3022" loading="lazy" decoding="async"><span class="zoom-label" aria-hidden="true">查看完整大图 ↗</span></a><figcaption>飞书机器人 · 多角色方案讨论（敏感区域已遮盖）</figcaption></figure><figure><a class="shot-link" href="assets/shots/feishu-work2-redacted.png" target="_blank" rel="noopener" aria-label="放大查看：飞书机器人讨论摘要换行与前端样式的实际截图"><img src="assets/shots/feishu-work2-redacted.png" alt="飞书机器人讨论摘要换行与前端样式的实际截图" width="1440" height="998" loading="lazy" decoding="async"><span class="zoom-label" aria-hidden="true">查看完整大图 ↗</span></a><figcaption>飞书机器人 · 需求澄清与前端协作（敏感区域已遮盖）</figcaption></figure></div></div></div>
       </details>
 
     </div>
   </section>
 
-  <!-- ============ 产品设计案例 ============ -->
   <section class="wrap section" id="products">
-    <h2 class="sec-title">产品设计案例</h2>
-    <p class="sec-sub">从需求分析到需求文档、原型与前后端规则的完整产出。点击展开查看设计思路。</p>
+    <h2 class="sec-title">产品设计案例 <span class="section-count">03 项方案与需求设计</span></h2>
+    <p class="sec-sub">围绕游戏发现与信息展示，细化页面交互、数据关系和后台配置规则。</p>
 
     <div class="accordion">
+      <details class="acc top-case" open>
+        <summary><div class="acc-head"><div class="acc-titles"><span class="work-tag">产品改版 · 需求设计 / 交互原型</span><h3 id="top-redesign">游戏榜单 · 从排名列表到游戏发现入口</h3></div><span class="acc-toggle" aria-hidden="true">展开 / 收起</span></div></summary>
+        <div class="acc-body"><dl class="case-brief"><div><dt>我的职责</dt><dd>信息架构、卡片交互、排序与异常规则设计</dd></div><div><dt>交付内容</dt><dd>总需求、前后端规则、交互原型与评审讲稿</dd></div></dl>
+<div class="pd">
+  <p class="pd-lead">排名能表达热度，却不能直接说明“近期有什么变化”。我围绕游戏发现路径，把主榜、分类、本周节点和站内详情入口组织在一起。</p>
+  <div class="case-detail-grid">
+    <div class="case-detail"><h4>信息架构：主榜与近期关注分工</h4><p>热门／期待榜分别承载已可体验与待上线游戏，侧栏补充“本周值得看”。宽屏双栏、窄屏上下排列，详情入口统一进入站内游戏资料页。</p></div>
+    <div class="case-detail"><h4>内容规则：摘要必须对应同一节点</h4><p>卡片展示日期、类型、名称与一句话摘要，说明该次测试或更新；节点与摘要分别做空值处理。本周模块选择最近的有效推荐节点，最多展示 12 款，不凑数。</p></div>
+    <div class="case-detail"><h4>分类交互：筛选不重排名</h4><p>分类单选、重复点击取消；筛选后保留原榜顺序并隐藏名次，避免子集被误解为独立排名。切换榜单时清空分类并回到顶部。</p></div>
+    <div class="case-detail"><h4>失败处理：区分缺少候选与采集故障</h4><p>正常候选不足按规则继续补位；采集失败或不完整时使用有效的完整历史榜单。没有可用备份才展示暂不可用，避免故障被显示为空榜。</p></div>
+  </div>
+  <h4 class="work-sec">排序与数据关系，写到研发可以判断</h4>
+  <ul class="plain">
+    <li><strong>多来源合并：</strong>不直接比较跨平台原始分数，保留来源顺序、安排展示位置，在实际填充时去重并继续取下一项。</li>
+    <li><strong>候选边界：</strong>区分正式游戏、DLC、试玩与合集，分别处理已可体验、抢先体验和仅预购状态。</li>
+    <li><strong>字段关系：</strong>分别定义游戏资料、时间节点和榜单记录；推荐标记与编辑徽标独立，避免状态混用。</li>
+  </ul>
+  <div class="top-prototype-gallery work-shots"><figure><a class="shot-link" data-image-note="原型界面 · 含演示数据 · 非上线效果" href="assets/shots/top-prototype-overview.png" target="_blank" rel="noopener" aria-label="放大查看：游戏榜单改版原型：主榜与本周值得看"><img src="assets/shots/top-prototype-overview.png" alt="游戏榜单改版原型：主榜与本周值得看" width="1440" height="950" loading="lazy" decoding="async"><span class="zoom-label" aria-hidden="true">查看原型大图 ↗</span></a><figcaption>整体信息架构：主榜 + 本周值得看<br>原型截图 · 含演示数据 · 非上线效果</figcaption></figure><figure><a class="shot-link" data-image-note="原型界面 · 含演示数据 · 非上线效果" href="assets/shots/top-prototype-filter.png" target="_blank" rel="noopener" aria-label="放大查看：游戏榜单改版原型：分类筛选状态"><img src="assets/shots/top-prototype-filter.png" alt="游戏榜单改版原型：分类筛选状态" width="900" height="430" loading="lazy" decoding="async"><span class="zoom-label" aria-hidden="true">查看原型大图 ↗</span></a><figcaption>分类筛选：保留原榜顺序，隐藏名次<br>原型截图 · 含演示数据 · 非上线效果</figcaption></figure></div>
+</div></div>
+      </details>
 
-      <details class="acc">
+
+      <details class="acc" open>
         <summary>
           <div class="acc-head">
             <div class="acc-titles">
               <span class="work-tag">PC 端改版 · 需求文档</span>
-              <h3>游戏详情页改版需求设计</h3>
+              <h3 id="detail-redesign">游戏详情页改版需求设计</h3>
             </div>
-            <span class="acc-toggle" aria-hidden="true">展开/收起</span>
+            <span class="acc-toggle" aria-hidden="true">展开 / 收起</span>
           </div>
         </summary>
-        <div class="acc-body">
-          <div class="pd">
-            <p class="pd-lead">基于用户行为数据，把承载信息日益庞杂的 PC 详情页，重构成「资源再分配」的双栏布局。已输出完整 PRD 并推进到开发。</p>
-            <div class="pd-block">
-              <h4>问题判断</h4>
-              <p>首屏缺乏站内优质资源（如独家报道）的有效曝光；用户要滚动多次才能找到关键信息。瓶颈在布局结构，而非单纯增加内容。</p>
-            </div>
-            <div class="pd-grid">
-              <div class="pd-card">
-                <h4>全局布局</h4>
-                <p>总宽 1210px 双栏：左侧主干区 860px 承载媒体物料与内容流，右侧侧边栏 320px 承载游戏信息与转化插卡；两栏间 30px 间距。</p>
-              </div>
-              <div class="pd-card">
-                <h4>响应式机制</h4>
-                <p>＞1400px 完整展示；1000–1400px 内容区等比例收纳、侧边栏固定；最窄 1000px。断点细节交由前端调优，原型期先定规范。</p>
-              </div>
-              <div class="pd-card">
-                <h4>模块动线</h4>
-                <p>按「用户决策路径」组织：先看媒体物料 → 再查基础信息（右侧首屏转化区）→ 后看口碑长尾。让用户更快进入下载 / 预约决策。</p>
-              </div>
-              <div class="pd-card">
-                <h4>新增模块</h4>
-                <p>游戏信息分发插卡（首屏转化）、资讯 Banner（站内优质内容曝光）、游戏历程插卡（版本追踪）、基本信息插卡（多列 + 空值隐藏 + 外链另起行）。</p>
-              </div>
-            </div>
-            <div class="pd-block">
-              <h4>设计产出</h4>
-              <ul class="plain">
-                <li>完整 PRD：页面全局布局规范、插卡分布表、响应式机制、模块交互逻辑。</li>
-                <li>墨刀高保真原型：含右侧游戏信息分发插卡样式与交互、资讯 Banner、游戏历程插卡、吸顶 Tab 与底部悬浮分发栏。</li>
-                <li>数据路径梳理：每个前端字段对应后台位置与字段，形成可落地的数据契约。</li>
-              </ul>
-              <p class="repo-link"><a href="https://ycniooiplcil.feishu.cn/wiki/NJb8whVEhikjFKkT8wCc7uCinye" rel="noopener">查看飞书需求文档与原型 ↗</a></p>
-            </div>
-          </div>
-        </div>
+        <div class="acc-body"><dl class="case-brief"><div><dt>我的职责</dt><dd>重排页面结构，设计模块与交互、梳理字段映射</dd></div><div><dt>交付内容</dt><dd>PRD、墨刀高保真原型与前后台字段对应</dd></div></dl>
+<div class="pd">
+  <p class="pd-lead">PC 详情页信息不断增加，但首屏优质内容曝光不足、关键信息查找路径较长。我从资源分配和浏览顺序切入，输出双栏改版需求并推进研发。</p>
+  <div class="pd-grid">
+    <div class="pd-card"><h4>主次分工</h4><p>主栏承载媒体物料与内容流，侧栏承载游戏资料及下载／预约入口。按 1210px 总宽设计布局，明确宽屏与收窄后的展示规则。</p></div>
+    <div class="pd-card"><h4>浏览动线</h4><p>按“看媒体物料 → 查基础信息 → 看口碑与长尾内容”组织页面，通过吸顶 Tab 和底部悬浮分发栏保持入口可达。</p></div>
+    <div class="pd-card"><h4>模块设计</h4><p>设计信息分发插卡、资讯 Banner、游戏历程和基本信息插卡，分别承载转化入口、站内内容曝光、版本追踪与资料查阅。</p></div>
+    <div class="pd-card"><h4>实现约定</h4><p>逐项对应前端字段与后台数据位置，规定多列展示、空值隐藏、外链另起行等细节，将原型与字段规则一起交给研发。</p></div>
+  </div>
+</div></div>
       </details>
 
-      <details class="acc">
+      <details class="acc" open>
         <summary>
           <div class="acc-head">
             <div class="acc-titles">
               <span class="work-tag">后台功能 · 需求文档</span>
-              <h3>游戏历程插卡 · 后台配置功能设计</h3>
+              <h3 id="timeline-config">游戏历程插卡 · 后台配置功能设计</h3>
             </div>
-            <span class="acc-toggle" aria-hidden="true">展开/收起</span>
+            <span class="acc-toggle" aria-hidden="true">展开 / 收起</span>
           </div>
         </summary>
-        <div class="acc-body">
-          <div class="pd">
-            <p class="pd-lead">配合详情页「游戏历程插卡」前端模块，设计后台「测试信息管理」的新增配置能力，让运营能自助控制节点展示样式。输出完整需求说明并推动研发。</p>
-            <div class="pd-block">
-              <h4>核心：样式联动状态机</h4>
-              <p>根据「测试类型」自动约束「插卡样式」可选范围——封测 / 内测 / 日常更新锁定为「不设置」；新版本 / 公测 / 资料片开放「默认样式」与「图文样式」。把复杂的业务规则收敛成一张状态机，避免脏数据。</p>
-            </div>
-            <div class="pd-grid">
-              <div class="pd-card">
-                <h4>前端分发规则</h4>
-                <p>仅拉取「公测 / 新版本 / 资料片」且开启样式的数据；按测试时间倒序，横向最多展示 4 个最新节点，其余收纳进「历史节点」浮窗。</p>
-              </div>
-              <div class="pd-card">
-                <h4>表单字段</h4>
-                <p>一句话说明（按样式区分必填 / 选填）、节点宣传图（图文样式必填）、内容标签页（2 字分类标签 + 自定义小标题 + 详细文本，1–6 组可增删）。</p>
-              </div>
-              <div class="pd-card">
-                <h4>存量数据兼容</h4>
-                <p>历史公测 / 新版本节点默认置「不设置」并继承原说明，避免存量异常文案直接外露；热门游戏调整完再统一放开。</p>
-              </div>
-              <div class="pd-card">
-                <h4>交互细节</h4>
-                <p>组数达上限后添加按钮置灰、仅剩 1 组时删除置灰；带兜底折叠逻辑——说明为空时前端隐藏灰底卡片仅保留时间轴。</p>
-              </div>
-            </div>
-            <div class="pd-block">
-              <h4>体现的能力</h4>
-              <ul class="plain">
-                <li>把模糊业务规则抽象成状态机与可执行逻辑，而非让研发猜。</li>
-                <li>前后端一起设计：数据过滤、排序截断、兜底策略都写在需求里。</li>
-                <li>考虑存量数据与灰度节奏，方案可直接落地。</li>
-              </ul>
-              <p class="repo-link"><a href="https://ycniooiplcil.feishu.cn/wiki/IFm1w7i1ziYXmUkqSzhcAj2Fn7f" rel="noopener">查看飞书需求文档与原型 ↗</a></p>
-            </div>
-          </div>
-        </div>
+        <div class="acc-body"><dl class="case-brief"><div><dt>我的职责</dt><dd>设计字段、样式联动、前台分发与存量兼容规则</dd></div><div><dt>交付内容</dt><dd>游戏历程后台配置需求说明</dd></div></dl>
+<div class="pd">
+  <p class="pd-lead">配合游戏历程前台插卡，我设计后台配置能力，让运营选择节点展示样式，并用联动约束和默认值避免无效配置、保护历史内容。</p>
+  <div class="pd-grid">
+    <div class="pd-card"><h4>先约束样式，再配置内容</h4><p>封测、内测、日常更新锁定“不设置”；公测、新版本、资料片开放默认／图文样式。说明与宣传图按样式区分必填条件。</p></div>
+    <div class="pd-card"><h4>前台只读取有效配置</h4><p>按节点类型与样式开关过滤，按时间倒序展示最新 4 个节点，其余放入历史浮窗；说明为空时隐藏灰底卡片，保留时间轴。</p></div>
+    <div class="pd-card"><h4>保留内容编辑的明确边界</h4><p>内容标签支持 1–6 组，包含分类标签、小标题与详细文本；达到上限禁用添加，只剩一组禁用删除。</p></div>
+    <div class="pd-card"><h4>历史数据采用安全默认值</h4><p>历史公测／新版本节点默认“不设置”并继承原说明，避免旧文案直接进入新样式；先调整重点游戏，再逐步开放展示。</p></div>
+  </div>
+</div></div>
       </details>
 
     </div>
   </section>
 
-  <!-- ============ 交付案例 ============ -->
-  <section class="wrap section" id="delivery">
-    <h2 class="sec-title">技术交付 · 技能大赛</h2>
+  <section class="wrap section" id="experience">
+    <h2 class="sec-title">工作与实习经历</h2>
+    <article class="job current-job">
+      <header class="job-head"><div><h3>搜狐畅游 · 17173</h3><p class="role">产品运营 · 游戏媒体</p></div><time>2026.04 – 至今</time></header>
+      <p class="job-about">负责游戏数据运营与产品需求设计，围绕榜单选品、游戏节点整理、页面展示和稿件处理开展工作。在日常业务中识别重复操作与信息判断问题，独立开发个人辅助工具，并持续用于自己的工作流程。</p>
+
+      <div class="achi">
+        <h4>榜单运营与数据分析</h4>
+        <ul>
+          <li>参与本周热门、新游测试、游戏新版本等榜单的选品与信息维护，补充站外热门新游、整理测试与版本节点，关注老 IP 的更新动态。</li>
+          <li>结合 PV、UV、点击量和 CTR 观察榜单表现，分析头部集中、展示位置与选品内容之间的关系，将发现的问题转化为内容调整和改版需求。</li>
+        </ul>
+      </div>
+
+      <div class="achi">
+        <h4>产品需求设计与研发对齐</h4>
+        <ul>
+          <li><strong>游戏榜单：</strong>整理主榜、分类与本周节点的发现路径，输出总需求、交互原型、前后端规则及评审讲稿，明确多来源排序、去重和异常兜底。</li>
+          <li><strong>游戏详情页：</strong>从首屏资源分配和用户浏览路径切入，设计双栏布局、信息分发插卡、资讯 Banner 与游戏历程等模块，输出 PRD 和高保真原型，推进研发理解与实现。</li>
+          <li><strong>后台配置：</strong>为游戏历程设计节点类型、展示样式与必填字段的联动规则，补齐前后台字段映射、空值处理和历史数据兼容要求。</li>
+        </ul>
+      </div>
+
+      <div class="achi">
+        <h4>个人 AI 工具开发</h4>
+        <ul>
+          <li><strong>GamePulse AI：</strong>独立完成从多源采集、LLM 结构化与节点复检，到数据入库、去重和可视化的流程；将分散的测试、首发和版本信息整理为日历、看板与排期表。</li>
+          <li><strong>CMS 发布助手：</strong>独立开发浏览器扩展，串联文档解析、字段填充、CMS 既有 AI 游戏识别、图片上传与正文回填；处理异步控件与结果等待，最终由使用者核对发布。</li>
+        </ul>
+      </div>
+
+      <div class="achi">
+        <h4>日常使用与工具维护</h4>
+        <ul>
+          <li>GamePulse 由本人每日高频使用，同事查看聚合结果；保留原始来源与审核记录，遇到日期、节点类型等歧义时回查核对，并在使用中持续调整。</li>
+          <li>为辅助工具补充调用失败、等待超时、图片上传失败等场景的提示与处理方式，保留日志、重试和人工接续入口，方便出现问题后定位和继续操作。</li>
+        </ul>
+      </div>
+      <div class="related-cases" aria-label="相关案例"><a href="#gamepulse">GamePulse AI ↗</a><a href="#cms">CMS 发布助手 ↗</a><a href="#top-redesign">榜单改版 ↗</a><a href="#detail-redesign">详情页改版 ↗</a><a href="#timeline-config">后台配置设计 ↗</a></div>
+    </article>
+    <article class="job intern-job" id="piaofutong-intern">
+      <header class="job-head"><div><h3>福建票付通信息科技有限公司</h3><p class="role">产品专员（实习） · 智慧旅游</p></div><time>2025.04 – 2025.07</time></header>
+      <p class="job-about">参与“三亚先行”智慧旅游小程序的核心交付，独立负责票务分销商管理模块的需求调研与产品设计，围绕多层级分销体系梳理业务、输出原型和交付文档。</p>
+      <div class="achi">
+        <h4>需求梳理与原型设计</h4>
+        <ul>
+          <li>面向一级至三级票务分销商的管理场景，通过沟通梳理等级管理、佣金结算和业绩追踪等需求，明确分销商管理模块需要支持的业务内容。</li>
+          <li>使用 Axure RP 输出高保真原型，重点呈现等级管理、佣金计算等核心功能，将业务逻辑转成页面与操作流程，供研发理解和实现。</li>
+        </ul>
+      </div>
+      <div class="achi">
+        <h4>产品文档与操作说明</h4>
+        <ul>
+          <li>编写并维护 PRD 和技术功能说明，将需求与功能逻辑整理为研发、测试验收可查阅的文档。</li>
+          <li>编写用户操作手册，说明后台功能与使用流程，为后续客户培训提供参考，使业务需求、原型与操作说明能够衔接。</li>
+        </ul>
+      </div>
+    </article>
     <article class="job">
-      <header class="job-head">
-        <div>
-          <h3>AI 技术交付工程师</h3>
-          <p class="role">外包 · 项目制合作 · 面向职业院校技能大赛</p>
-        </div>
-        <time>2025.12 – 至今</time>
-      </header>
-      <p class="job-about">完整跑通 FDE 式交付闭环：需求对接 → 方案设计 → 技术落地 → 演示培训 → 现场交付。挂职科技公司外包团队，为多所中高职院校做参赛系统的全流程交付。</p>
-      <ul class="plain">
-        <li><strong>需求对接</strong>：与院校负责人确认参赛诉求与业务痛点，把模糊的「要展示什么」翻译成可落地的技术方案。</li>
-        <li><strong>技术落地</strong>：以 AI 工作台、Coze 工作流、BI 数据分析看板、Python 为主实现系统，覆盖财务、电商等不同赛题方向。</li>
-        <li><strong>培训与交付</strong>：独立负责产品使用培训与现场演示支持，保障比赛期间演示零事故。</li>
-        <li><strong>成果</strong>：累计交付 20+ 所中高职院校，客户成绩含国赛 1 金 2 铜、省赛 3 金 8 银。</li>
-      </ul>
+      <header class="job-head"><div><h3>TikTok Shop 跨境电商</h3><p class="role">个人创业实践 · 东南亚大码女装</p></div><time>2024.11 – 2026</time></header>
+      <p class="job-about">独立实践细分市场选品、定价、内容与客服，结合销售和用户反馈调整商品与表达，积累从市场判断到经营执行的经验。</p>
+    </article>
+    <article class="job intern-job" id="newland-intern">
+      <header class="job-head"><div><h3>福建新大陆时代科技有限公司</h3><p class="role">物联网技术支持（实习）</p></div><time>2023.08 – 2023.11</time></header>
+      <p class="job-about">参与物联网硬件调试与职业院校技能大赛现场技术支持，承担终端设备部署、参数配置和竞赛设备调试，并参与系统联调与故障排查。</p>
+      <div class="achi">
+        <h4>主控板与天线测试</h4>
+        <ul>
+          <li>协助工程师完成主控板电路调试，参与天线阻抗匹配测试，围绕标签识读开展硬件侧的调试与测试。</li>
+        </ul>
+      </div>
+      <div class="achi">
+        <h4>赛场部署、联调与排障</h4>
+        <ul>
+          <li>参与职业院校技能大赛的赛场规划与布置，部署物联网终端设备，完成设备参数配置，配合赛场整体准备。</li>
+          <li>负责竞赛设备调试，参与系统联调和故障排查，处理设备配置与运行中的问题，为比赛提供现场技术支持。</li>
+        </ul>
+      </div>
     </article>
   </section>
 
-  <!-- ============ 教育 / 技能 ============ -->
+  <section class="wrap section" id="delivery">
+    <h2 class="sec-title">项目交付与物联网实践</h2>
+    <article class="job intern-job" id="ai-delivery">
+      <header class="job-head"><div><h3>职业院校赛项 · AI 应用交付</h3><p class="role">外包 · 项目制合作</p></div><time>2025.12 – 至今</time></header>
+      <p class="job-about">面向职业院校技能大赛，以项目制合作参与需求对接、方案设计、技术实现和比赛交付；独立负责产品使用培训，配合功能演示与现场支持。</p>
+      <div class="achi">
+        <h4>需求对接与方案拆解</h4>
+        <ul>
+          <li>与院校负责人沟通参赛诉求、业务场景和演示目标，将“要展示什么”拆成具体功能、操作流程与技术方案，衔接后续实现和演示准备。</li>
+        </ul>
+      </div>
+      <div class="achi">
+        <h4>技术实现与交付材料</h4>
+        <ul>
+          <li>参与财务、电商等赛题方向的方案实现，结合 AI 工作台、Coze 工作流、BI 数据看板与 Python 组织业务处理和结果展示。</li>
+          <li>围绕参赛场景准备功能演示、操作说明和培训材料，梳理系统使用步骤与展示顺序，将实现内容整理为可讲解、可操作的交付内容。</li>
+        </ul>
+      </div>
+      <div class="achi">
+        <h4>产品使用培训与现场支持</h4>
+        <ul>
+          <li>独立承担产品使用培训，讲解功能用途、操作步骤、适用场景和常见问题，结合系统演示说明各环节如何使用。</li>
+          <li>配合现场演示与比赛交付，针对使用中出现的问题进行说明和协助处理，衔接方案实现与实际操作。</li>
+        </ul>
+      </div>
+    </article>
+    <article class="job iot-case" id="iot-project">
+      <header class="job-head"><div><p class="case-eyebrow">物联网项目</p><h3>无损智能窗户改造方案</h3><p class="role">项目负责人</p></div><time>2024.01 – 2024.06</time></header>
+      <p class="job-about">根据温湿度、PM2.5 等环境数据调整窗户开合，并通过微信小程序提供远程操作。我负责以下三个部分：</p>
+      <div class="case-detail-grid iot-contributions">
+        <div class="case-detail"><h4>传感器采集模块</h4><p>开发环境数据采集模块，为根据环境变化控制窗户提供输入。</p></div>
+        <div class="case-detail"><h4>产品制动装置</h4><p>设计窗户制动装置，将开合控制需求落实到执行机构。</p></div>
+        <div class="case-detail"><h4>小程序接口与前端</h4><p>完成微信小程序接口与前端设计，将设备控制能力组织为远程操作入口。</p></div>
+      </div>
+    </article>
+  </section>
+
   <section class="wrap section" id="education">
     <div class="two-col">
       <div>
@@ -431,7 +351,8 @@
           <p>公共事业管理 · 统招本科</p>
           <time>2024.09 – 2026.06</time>
         </div>
-        <p class="edu-note">本科期间同步积累技术能力：前端与后端开发、AI 工具应用、数据分析均来自项目实战而非课程。</p>
+        <div class="edu-card"><h3>闽江师范高等专科学校</h3><p>物联网应用技术 · 专科</p><time>2021.09 – 2024.06</time></div>
+        <p class="edu-note">专科主要课程：传感网、单片机、Python、C 语言与 SQL。</p>
 
         <h2 class="sec-title sub">证书</h2>
         <ul class="honors">
@@ -444,11 +365,10 @@
       <div>
         <h2 class="sec-title">技能清单</h2>
         <dl class="skill">
-          <div><dt>编程</dt><dd>Python（爬虫 / 自动化 / 数据分析）、JavaScript（浏览器扩展）、SQL、C（嵌入式 / ESP32）</dd></div>
-          <div><dt>AI</dt><dd>DeepSeek / 大模型 API、Coze 工作流、Dify、Prompt Engineering、AI Coding（Claude Code / Codex / opencode）</dd></div>
-          <div><dt>数据 / BI</dt><dd>BI 分析看板（财务 / 电商 / 游戏）、ECharts、Excel、运营指标体系拆解</dd></div>
-          <div><dt>产品</dt><dd>PRD、Axure / 墨刀原型、需求文档、状态机与后台配置设计、数据埋点设计</dd></div>
-          <div><dt>运营</dt><dd>榜单运营、用户偏好分析、流量商业化、A/B 效果评估</dd></div>
+          <div><dt>开发</dt><dd>Python（采集、自动化、数据处理）、JavaScript（浏览器扩展）、SQL；C / ESP32</dd></div>
+          <div><dt>AI 应用</dt><dd>大模型 API、提示词与结构化输出、Coze / Dify 工作流、Agent Skill</dd></div>
+          <div><dt>数据</dt><dd>ECharts、BI 看板、Excel；PV / UV / CTR 分析</dd></div>
+          <div><dt>产品交付</dt><dd>PRD、Axure / 墨刀原型、字段与交互规则、操作文档、演示培训</dd></div>
         </dl>
 
         <h2 class="sec-title sub">荣誉</h2>
@@ -462,21 +382,11 @@
     </div>
   </section>
 
-  <!-- ============ 联系 ============ -->
   <section class="wrap section contact" id="contact">
-    <h2 class="sec-title">联系方式</h2>
+    <h2 class="sec-title">联系我</h2>
     <div class="contact-grid">
-      <div>
-        <p class="contact-line">base 福州或厦门，接受出差。日常做数据驱动的产品运营，也会自己开发 AI 小工具、写产品需求，两边都有落地经验——希望能把这些用起来。</p>
-        <div class="contact-lines">
-          <div class="cline"><span class="cl-ico" aria-hidden="true">@</span><span>邮箱：<a href="mailto:yc077@foxmail.com">yc077@foxmail.com</a></span></div>
-          <div class="cline"><span class="cl-ico" aria-hidden="true">✆</span><span>电话：<a href="tel:15859440867">15859440867</a></span></div>
-        </div>
-      </div>
-      <div class="contact-files">
-        <p class="cf-label">简历下载</p>
-        <a class="rowlink" href="downloads/resume.pdf" download>个人简历（PDF）<span>↓</span></a>
-      </div>
+      <div><p class="contact-line">意向福州、厦门、杭州的 AI 应用交付、AI 应用实施与 AI 产品运营岗位。</p></div>
+      <div class="contact-files"><p class="cf-label">岗位与项目交流</p><a class="rowlink" href="mailto:yc077@foxmail.com?subject=岗位与项目交流">yc077@foxmail.com<span>↗</span></a></div>
     </div>
   </section>
 
@@ -485,15 +395,11 @@
 <footer class="footer">
   <div class="wrap footer-in">
     <span>姚畅 · 福州</span>
-    <span>158 5944 0867 · yc077@foxmail.com</span>
     <span>© <span data-year>2026</span> 简历与作品集</span>
   </div>
 </footer>
 
-<script>
-  var y = document.querySelector('[data-year]');
-  if (y) y.textContent = new Date().getFullYear();
-</script>
-<script src="js/reveal.js"></script>
+<dialog class="image-dialog" aria-label="项目截图大图"><div class="dialog-toolbar"><span class="dialog-title"></span><button type="button" class="dialog-close">关闭 ×</button></div><div class="dialog-content"><img alt=""></div></dialog>
+<script src="js/main.js" defer></script>
 </body>
 </html>

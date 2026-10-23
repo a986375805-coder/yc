@@ -1,27 +1,18 @@
-# 姚畅 · 简历与作品集（本地版）
+# 姚畅 · 简历与作品集
 
-简历 + 作品集单页 HTML。源码仓库已按要求设为私有，本目录为纯静态页面，可部署到任意静态托管（GitHub Pages / Vercel / Netlify / 自己的服务器）实现全网可访问。
+个人作品集，包含 AI 工具实践、产品需求设计、技术交付、物联网项目与工作经历。
 
-## 本地预览
+访问：[在线作品集](https://a986375805-coder.github.io/yc/)
 
-```bash
-python -m http.server 8900
-# 打开 http://127.0.0.1:8900
-```
+## 本地浏览
 
-## 目录
+直接打开 `index.html`，或在目录中运行 `python -m http.server 8900`。使用原生 HTML、CSS 和 JavaScript，无需构建。
 
-- `index.html` — 简历 + 作品集主页面
-- `css/styles.css` — 样式（印刷/编辑风，无框架依赖）
-- `js/reveal.js` — 轻量滚动显现（尊重 reduced-motion）
-- `assets/shots/` — 项目界面截图（GamePulse）
-- `downloads/resume-fde.md` / `downloads/resume-aiops.md` — 简历 Markdown 下载版
+## 内容与资源
 
-## 部署提示
+- 三个 AI 工具：GamePulse AI、CMS 发布助手、飞书 Agent Skill，附对应源码链接。
+- 三项产品设计：游戏榜单、游戏详情页、游戏历程后台配置。
+- 技术交付、智能窗户项目、工作与实习、教育和技能。
+- 个人照片与真实案例截图；工作截图已遮盖敏感区域，原型图片标注演示数据。
 
-直接把这整个文件夹上传到任意静态托管即可，无需构建。
-
-## 内容说明
-
-- 页面不含任何源码仓库链接（源码已私有化）。
-- 求职方向双通道：AI 产品运营 / AI 技术交付（FDE）。
+`assets/` 保存页面使用的图片，`css/styles.css` 与 `js/main.js` 提供布局、导航及大图交互。页面不依赖远程字体、第三方脚本或统计服务。
